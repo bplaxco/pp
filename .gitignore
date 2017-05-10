@@ -1,0 +1,4 @@
+rpm-build/
+rpm.spec
+dist/
+/pp

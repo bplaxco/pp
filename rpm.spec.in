@@ -1,0 +1,21 @@
+Name:           %PKGNAME%
+Version:        %VERSION%
+Release:        %RELEASE%
+Summary:        Random Availible Port Picker
+Source0:        %PKGNAME%-%VERSION%.tar.gz
+License:        BSD
+Group:          Development/Libraries
+
+%description
+pp will simply print out a usable port
+
+%prep
+%autosetup
+
+%install
+%make_install
+
+%files
+/usr/bin/pp
+
+%changelog
